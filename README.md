@@ -1,2 +1,4 @@
 # AE-EventAnalysis-RScript
-This repository contains an R script for analyzing adverse event (AE) data from clinical studies. The script processes AE_data.csv to compute metrics like Total AEs, SAEs, and Related AEs, filters out participants with form status 6, and aggregates results by site. Outputs are saved to AE_output.csv, ensuring accurate site-wise analysis.
+This repository contains an R script to process and analyze adverse event (AE) data from clinical studies. The script reads the AE_data.csv file, calculates key metrics (Total AEs, SAEs, Related AEs, and more), filters participants based on form status, and aggregates results by site. The output is saved as a CSV file (AE_output.csv). Includes site mapping, form status filtering, and treatment relation classification for robust analysis.
+
+Let me know if you need further adjustments!
