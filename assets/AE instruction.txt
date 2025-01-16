@@ -1,0 +1,57 @@
+The AE_data.csv contains raw data.
+The data file contains a list of patients with adverse event from a study with one adverse event per row.
+The data file indicates if each adverse event is a serious adverse event (SAE), 
+if the adverse event was related to the treatment, and form status.
+
+Please write an R script to read AE_data.csv to 
+calculate Total Number of AEs, Number of AEs, Number of SAEs, Number of Related AEs, 
+Number of Related 0,
+Number of Related AEs and SAEs for each site with participants with form status of 6 removed. 
+The result should be saved into a csv output file.
+
+Your output results should match the AE_output.csv file attached.
+
+Site ID: First two digit of participant ID
+
+Site Names:
+
+01 - Hospital A
+02 - Hospital B
+03 - Hospital C
+04 - Hospital D
+05 - Hospital E
+06 - Hospital F
+07 - Hospital G
+08 - Hospital H
+09 - Hospital I
+10 - Hospital J
+11 - Hospital K
+12 - Hospital L
+13 - Hospital M
+14 - Hospital N
+15 - Hospital O
+16 - Hospital P
+17 - Hospital Q
+18 - Hospital R
+
+Form Status: This variable indicates if the form should be included in the analysis
+Form Status of 1, 2, 3, 4, 5, and 7 should be
+included in the analysis
+Participant with Form Status of 6 should be removed from the analysis
+
+
+[aerelat]
+Specify if the adverse event was directly related to the treatment 
+
+1 = Definitely related	
+2 = Probably related	
+3 = Possibly related
+4 = Not related
+
+*Note: option 1, 2 and 3 should be considered related. 
+
+
+[saeyn]
+Does this adverse event meet the criteria for a serious adverse event?
+1 = Yes	
+2 = No

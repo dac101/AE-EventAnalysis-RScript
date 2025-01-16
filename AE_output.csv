@@ -1,0 +1,20 @@
+"SiteID","SiteName","Total_AEs","Number_of_AEs","Number_of_SAEs","Number_of_Related_AEs","Number_of_Related_SAEs","Number_of_Related_AEs_and_SAEs"
+"01","Hospital A",3,0,3,0,1,1
+"02","Hospital B",0,0,0,0,0,0
+"03","Hospital C",0,0,0,0,0,0
+"04","Hospital D",3,2,1,0,0,0
+"05","Hospital E",2,1,1,1,0,1
+"06","Hospital F",2,1,1,1,0,1
+"07","Hospital G",0,0,0,0,0,0
+"08","Hospital H",2,2,0,0,0,0
+"09","Hospital I",0,0,0,0,0,0
+"10","Hospital J",3,1,2,0,0,0
+"11","Hospital K",0,0,0,0,0,0
+"12","Hospital L",1,0,1,0,1,1
+"13","Hospital M",1,0,1,0,0,0
+"14","Hospital N",0,0,0,0,0,0
+"15","Hospital O",0,0,0,0,0,0
+"16","Hospital P",0,0,0,0,0,0
+"17","Hospital Q",0,0,0,0,0,0
+"18","Hospital R",0,0,0,0,0,0
+"Total","Total",17,7,10,2,2,4
